@@ -33,6 +33,8 @@ class bankaccount:
 e=bankaccount(int(input("accno:")),input("name:"),int(input("balance:")))
 e.display()
 e.deposit(int(input("deposit:")))
+)
+)
 e.withdraw(int(input("withdraw:")))
 e.bankfees()
 e.display()
